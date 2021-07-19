@@ -29,5 +29,9 @@ $( document ).ready(function() {
                     $('#index_left').addClass('animated slideInLeft');
                     $('#index_right').addClass('animated slideInRight');
                     });
+
+                $("#emailTo").click(function(){
+                    window.open('mailto:sandeepdevrari77@gmail.com?subject=subject&body=body');
+                })
            
 		});
